@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(57, 43, 43);
+}
+
+
+header{
+    background-color: #00000090;
+    height: 500px;
+    
+}
+
+
+
