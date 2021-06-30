@@ -6,13 +6,312 @@
 
 body{
     background-color: rgb(57, 43, 43);
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 header{
-    background-color: #00000090;
-    height: 500px;
     
+    height: 90px;
+    
+}
+
+
+
+.imagens{
+    position: relative;
+}
+
+.pizza{
+    position: absolute;
+   
+    left: 432px;
+     top: -70px;
+     width: 500px;
+     height: 500px;
+
+}
+
+.facebook{
+    position: absolute;
+    left: 115px;
+     top: 12px;
+     width: 40px;
+     height: 40px;
+
+}
+
+.instagram{
+    position: absolute;
+    left: 150px;
+     top: 14px;
+     width: 40px;
+     height: 40px;
+
+}
+
+.calabresa{
+    position: absolute;
+    left: 120px;
+     top: 230px;
+     width: 60px;
+     height: 60px;
+
+}
+
+.calabresa2{
+    position: absolute;
+    left: -100px;
+     top: 230px;
+     width: 60px;
+     height: 60px;
+
+}
+
+.pimenta2{
+    position: absolute;
+    left: 140px;
+     top: 310px;
+     width: 60px;
+     height: 60px;
+     transform: rotate(-35deg);
+
+}
+
+.whatsapp{
+    position: absolute;
+    left: 185px;
+     top: 13px;
+     width: 40px;
+     height: 40px;
+
+}
+
+.telefone{
+    position: absolute;
+    left: 410px;
+     top: 14px;
+     width: 40px;
+     height: 40px;
+
+}
+
+.salsinha{
+    position: absolute;
+    left: 250px;
+     top: 230px;
+     width: 40px;
+     height: 40px;
+
+}
+
+.salsinha2{
+    position: absolute;
+    left: 70px;
+     top: 260px;
+     width: 40px;
+     height: 40px;
+
+}
+
+.salsinha3{
+    position: absolute;
+    left: 160px;
+     top: 260px;
+     width: 40px;
+     height: 40px;
+
+}
+
+.vk{
+    position: absolute;
+    left: 185px;
+     top: 12px;
+     width: 40px;
+     height: 40px;
+
+}
+
+.menu1{
+    position: absolute;
+    left: 450px;
+     top: 25px;
+     font-size: 20px;
+     color: white;
+     text-decoration: none;
+     
+}
+
+.menu2{
+    position: absolute;
+    left: 510px;
+     top: 25px;
+     font-size: 20px;
+     color: white;
+     text-decoration: none;
+     
+}
+
+.menu2 a:hover{
+    color: orangered;
+}
+
+.menu3{
+    position: absolute;
+    left: 590px;
+     top: 25px;
+     font-size: 20px;
+     color: orangered;
+     
+}
+
+.menu4{
+    position: absolute;
+    left: 690px;
+     top: 25px;
+     font-size: 20px;
+     color: white;
+     
+}
+
+.menu5{
+    position: absolute;
+    left: 870px;
+     top: 25px;
+     font-size: 20px;
+     color: white;
+     
+}
+
+
+.menu6{
+    position: absolute;
+    left: 870px;
+     top: 50px;
+     font-size: 20px;
+     color: white;
+     
+}
+
+
+
+
+.lofoHome{
+    position: absolute;
+    left: 90px;
+     top: 10px;
+     width: 80px;
+     height: 80px;
+
+}
+
+
+.fumaca{
+    position: absolute;
+    top: -330px;
+    left: 120px;
+    width: 800px;
+    height: 510px;
+}
+
+
+.ondaLaranja{
+    max-width: 650px;
+    max-height: 150px; 
+    position: relative;
+    top: 350px;
+    left: -85px;
+    width: 900px;
+    height: 300px;
+}
+
+main{
+    
+    padding: 100px 90px;
+    
+}
+
+.pimenta{
+    position: absolute;
+    left: 360px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.tomate{
+    position: absolute;
+    top: 240px;
+    left: 250px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(25deg);
+
+}
+
+.tomate2{
+    position: absolute;
+    top: 245px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(-25deg);
+
+}
+
+
+main a{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:orangered;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 217, 0, 0);
+    margin-top: 190px;
+    border-radius: 20px;
+    border-width: 2px 5px 3px 6px; /* aqui, cada lado possui uma borda de largura diferente */
+    border-style: solid;
+    border-color: orangered; /* uma cor de borda para cada lado */
+    transition: all .5s;
+}
+
+
+.endereco{
+    top: 600px;
+    position: absolute;
+    background-color: white;
+    color: black;
+}
+
+.subtitulo{
+    top: 290px;
+    position: absolute;
+  color: white;
+  
+  font-size: 40px;
+    
+}
+
+.subtitulo2{
+    left: 240px;
+    top: 290px;
+    position: absolute;
+  color: red;
+  
+  font-size: 40px;
+    
+}
+
+main h2{
+    position: absolute;
+
+    color: rgb(248, 120, 23);
+    font-size: 70px; 
+
 }
 
 
